@@ -14,7 +14,7 @@
   <th>简介</th>
 </tr>
 <tr>
-  <td rowspan="106"><b>AI</b></td>
+  <td rowspan="115"><b>AI</b></td>
   <td rowspan="11">Agent 框架</td>
   <td><a href="./ai/agent-framework/a2aproject-A2A-learn">A2A</a></td>
   <td>Google Agent2Agent 开放协议，定义 AI Agent 间通信与协作标准</td>
@@ -60,7 +60,11 @@
   <td>User-Aware LLM Agent 框架，自然语言转 SQL 并流式返回富 UI 组件</td>
 </tr>
 <tr>
-  <td rowspan="8">Agent 系统</td>
+  <td rowspan="9">Agent 系统</td>
+  <td><a href="./ai/agent-system/yikart-AiToEarn-learn">AiToEarn</a></td>
+  <td>面向创作者的 AI Agent 内容生产与多平台分发变现平台，Claude Agent SDK + 13 平台 + MCP 编排全自动流水线</td>
+</tr>
+<tr>
   <td><a href="./ai/agent-system/HKUDS-DeepTutor-learn">DeepTutor</a></td>
   <td>Agent-Native 个性化 AI 教学平台，两层插件架构 + 多 Agent 协作实现教学全场景</td>
 </tr>
@@ -118,7 +122,11 @@
   <td>腾讯优图下一代 Agentic RAG 系统，自主决策 + 双层记忆 + 多 Agent 协作</td>
 </tr>
 <tr>
-  <td rowspan="23">编程工具</td>
+  <td rowspan="25">编程工具</td>
+  <td><a href="./ai/coding-tool/rohitg00-agentmemory-learn">agentmemory</a></td>
+  <td>跨 AI 编码 Agent 共享的持久化记忆层，hook 自动采集 + LLM 压缩 + BM25/向量/知识图谱混合检索</td>
+</tr>
+<tr>
   <td><a href="./ai/coding-tool/coleam00-Archon-learn">Archon</a></td>
   <td>开源 AI 编码工作流引擎，YAML DAG 定义开发流程，多平台驱动 AI 编码代理</td>
 </tr>
@@ -157,6 +165,10 @@
 <tr>
   <td><a href="./ai/coding-tool/affaan-m-everything-claude-code-learn">Everything Claude Code</a></td>
   <td>AI Agent 编码工具性能优化系统，28 个 Agent + 116 个 Skill</td>
+</tr>
+<tr>
+  <td><a href="./ai/coding-tool/Alishahryar1-free-claude-code-learn">free-claude-code</a></td>
+  <td>本地 FastAPI 反向代理伪装成 Anthropic Messages API，把 Claude Code 路由到 12 家第三方/本地 LLM</td>
 </tr>
 <tr>
   <td><a href="./ai/coding-tool/gsd-build-get-shit-done-learn">GSD</a></td>
@@ -211,7 +223,7 @@
   <td>AI 编程代理工作流框架，14 个可组合 Skills 覆盖全开发流程</td>
 </tr>
 <tr>
-  <td rowspan="10">客户端</td>
+  <td rowspan="11">客户端</td>
   <td><a href="./ai/client/google-ai-edge-gallery-learn">AI Edge Gallery</a></td>
   <td>Google 官方 Android 端侧 AI 应用，本地离线运行 LLM 进行对话、图片理解和 Agent Skills</td>
 </tr>
@@ -230,6 +242,10 @@
 <tr>
   <td><a href="./ai/client/BasedHardware-omi-learn">omi</a></td>
   <td>开源「第二大脑」可穿戴 AI 系统，BLE 耳挂 + Flutter/Swift 客户端 + FastAPI 五服务协同实时转录与记忆</td>
+</tr>
+<tr>
+  <td><a href="./ai/client/tinyhumansai-openhuman-learn">openhuman</a></td>
+  <td>Tauri v2 + Rust + React 三段式个人 AI Agent 桌面应用，集成 118+ OAuth 与本地 Memory Tree 知识图谱</td>
 </tr>
 <tr>
   <td><a href="./ai/client/open-webui-open-webui-learn">Open WebUI</a></td>
@@ -337,13 +353,21 @@
   <td>高性能 LLM 微调框架，自研 Triton kernel 实现 2 倍加速和 70% 显存节省</td>
 </tr>
 <tr>
-  <td rowspan="7">金融</td>
+  <td rowspan="9">金融</td>
   <td><a href="./ai/finance/virattt-ai-hedge-fund-learn">ai-hedge-fund</a></td>
   <td>基于 LangGraph 多 Agent 的 AI 对冲基金系统，模拟 18 位投资大师生成交易决策</td>
 </tr>
 <tr>
   <td><a href="./ai/finance/ZhuLinsen-daily_stock_analysis-learn">daily_stock_analysis</a></td>
   <td>基于 AI 大模型的 A股/港股/美股自选股智能分析与多渠道推送系统</td>
+</tr>
+<tr>
+  <td><a href="./ai/finance/anthropics-financial-services-learn">financial-services</a></td>
+  <td>Anthropic 官方金融服务参考实现，10 个 agent plugin + 7 垂直 plugin 同源分发到 Cowork 与 Managed Agent</td>
+</tr>
+<tr>
+  <td><a href="./ai/finance/Fincept-Corporation-FinceptTerminal-learn">FinceptTerminal</a></td>
+  <td>纯 C++20 + Qt6 实现的机构级开源金融工作台，集成 100+ 数据源、37 AI Agent、16 券商与 QuantLib</td>
 </tr>
 <tr>
   <td><a href="./ai/finance/OpenBB-finance-OpenBB-learn">OpenBB</a></td>
@@ -366,13 +390,17 @@
   <td>基于 LangGraph 的中文多智能体股票分析平台，多角色协作辩论输出投资建议</td>
 </tr>
 <tr>
-  <td rowspan="9">多媒体</td>
+  <td rowspan="11">多媒体</td>
   <td><a href="./ai/multimedia/hacksider-Deep-Live-Cam-learn">Deep-Live-Cam</a></td>
   <td>基于 InsightFace 的实时人脸替换工具，单张图片即可换脸</td>
 </tr>
 <tr>
   <td><a href="./ai/multimedia/fishaudio-fish-speech-learn">fish-speech</a></td>
   <td>Fish Audio 多语言 TTS 系统，Dual-AR 架构，80+ 语言和快速语音克隆</td>
+</tr>
+<tr>
+  <td><a href="./ai/multimedia/heygen-com-hyperframes-learn">hyperframes</a></td>
+  <td>HeyGen 开源 HTML 即视频帧框架，Headless Chrome + FFmpeg 把 HTML 时间线确定性渲染为 MP4/WebM/MOV</td>
 </tr>
 <tr>
   <td><a href="./ai/multimedia/babysor-MockingBird-learn">MockingBird</a></td>
@@ -395,6 +423,10 @@
   <td>Ollama + Selenium 自动化变现工具，覆盖 YouTube Shorts 生成、Twitter 发帖、联盟营销等</td>
 </tr>
 <tr>
+  <td><a href="./ai/multimedia/Anil-matcha-Open-Generative-AI-learn">Open-Generative-AI</a></td>
+  <td>BYOK 多模态生成 studio，Next.js Web + Electron 桌面双前端，桥接 muapi.ai 与本地 sd.cpp/Wan2GP 推理</td>
+</tr>
+<tr>
   <td><a href="./ai/multimedia/roboflow-supervision-learn">supervision</a></td>
   <td>Roboflow 计算机视觉工具库，统一检测数据结构、可视化注解和多目标追踪</td>
 </tr>
@@ -403,13 +435,17 @@
   <td>微软语音 AI 模型家族，支持长达 90 分钟 TTS 和 60 分钟 ASR</td>
 </tr>
 <tr>
-  <td rowspan="11">学习资料</td>
+  <td rowspan="12">学习资料</td>
   <td><a href="./ai/resource/msitarzewski-agency-agents-learn">agency-agents</a></td>
   <td>AI Agent 人格集合，150+ 专业化 Agent 提示词模板，支持 11 种 AI 编码工具</td>
 </tr>
 <tr>
   <td><a href="./ai/resource/forrestchang-andrej-karpathy-skills-learn">andrej-karpathy-skills</a></td>
   <td>Claude Code 行为准则插件，基于 Karpathy 对 LLM 编码缺陷的观察提炼四条行为原则</td>
+</tr>
+<tr>
+  <td><a href="./ai/resource/multica-ai-andrej-karpathy-skills-learn">andrej-karpathy-skills (multica-ai)</a></td>
+  <td>把 Karpathy LLM 编码陷阱观察凝练为四条行为准则，以 Claude Plugin、Cursor Rule、CLAUDE.md 三形态分发</td>
 </tr>
 <tr>
   <td><a href="./ai/resource/shanraisshan-claude-code-best-practice-learn">claude-code-best-practice</a></td>
@@ -448,7 +484,7 @@
   <td>30+ AI 工具的 System Prompt 与 Tool 定义收集库</td>
 </tr>
 <tr>
-  <td rowspan="23"><b>开发工具</b></td>
+  <td rowspan="24"><b>开发工具</b></td>
   <td rowspan="2">前端</td>
   <td><a href="./dev-tools/frontend/shadcn-ui-ui-learn">shadcn/ui</a></td>
   <td>基于 Radix UI 和 Tailwind CSS 的组件集合，CLI 工具将源码直接复制到项目中</td>
@@ -502,7 +538,11 @@
   <td>Tampermonkey 用户脚本，MutationObserver 实时翻译 GitHub 界面为中文</td>
 </tr>
 <tr>
-  <td rowspan="3">安全</td>
+  <td rowspan="4">安全</td>
+  <td><a href="./dev-tools/security/Z4nzu-hackingtool-learn">hackingtool</a></td>
+  <td>Python + Rich 打造的纯 CLI 菜单驱动器，统一聚合 185+ 第三方安全测试工具的 install/run/update 操作</td>
+</tr>
+<tr>
   <td><a href="./dev-tools/security/projectdiscovery-katana-learn">katana</a></td>
   <td>ProjectDiscovery 下一代 Web 爬虫框架，三种爬取模式，专为安全自动化设计</td>
 </tr>
