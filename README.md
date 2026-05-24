@@ -14,7 +14,7 @@
   <th>简介</th>
 </tr>
 <tr>
-  <td rowspan="115"><b>AI</b></td>
+  <td rowspan="121"><b>AI</b></td>
   <td rowspan="11">Agent 框架</td>
   <td><a href="./ai/agent-framework/a2aproject-A2A-learn">A2A</a></td>
   <td>Google Agent2Agent 开放协议，定义 AI Agent 间通信与协作标准</td>
@@ -122,7 +122,7 @@
   <td>腾讯优图下一代 Agentic RAG 系统，自主决策 + 双层记忆 + 多 Agent 协作</td>
 </tr>
 <tr>
-  <td rowspan="25">编程工具</td>
+  <td rowspan="26">编程工具</td>
   <td><a href="./ai/coding-tool/rohitg00-agentmemory-learn">agentmemory</a></td>
   <td>跨 AI 编码 Agent 共享的持久化记忆层，hook 自动采集 + LLM 压缩 + BM25/向量/知识图谱混合检索</td>
 </tr>
@@ -221,6 +221,10 @@
 <tr>
   <td><a href="./ai/coding-tool/obra-superpowers-learn">Superpowers</a></td>
   <td>AI 编程代理工作流框架，14 个可组合 Skills 覆盖全开发流程</td>
+</tr>
+<tr>
+  <td><a href="./ai/coding-tool/Lum1104-Understand-Anything-learn">Understand-Anything</a></td>
+  <td>跨 14 个 AI 编程平台的多 Agent 知识图谱插件，把代码库解析为可视化节点 + 边图并提供引导浏览 dashboard</td>
 </tr>
 <tr>
   <td rowspan="11">客户端</td>
@@ -390,7 +394,7 @@
   <td>基于 LangGraph 的中文多智能体股票分析平台，多角色协作辩论输出投资建议</td>
 </tr>
 <tr>
-  <td rowspan="11">多媒体</td>
+  <td rowspan="12">多媒体</td>
   <td><a href="./ai/multimedia/hacksider-Deep-Live-Cam-learn">Deep-Live-Cam</a></td>
   <td>基于 InsightFace 的实时人脸替换工具，单张图片即可换脸</td>
 </tr>
@@ -427,6 +431,10 @@
   <td>BYOK 多模态生成 studio，Next.js Web + Electron 桌面双前端，桥接 muapi.ai 与本地 sd.cpp/Wan2GP 推理</td>
 </tr>
 <tr>
+  <td><a href="./ai/multimedia/supertone-inc-supertonic-learn">supertonic</a></td>
+  <td>Supertone 端侧多语言 TTS 系统，ONNX Runtime 推理 + 11 套语言/平台 SDK 示例</td>
+</tr>
+<tr>
   <td><a href="./ai/multimedia/roboflow-supervision-learn">supervision</a></td>
   <td>Roboflow 计算机视觉工具库，统一检测数据结构、可视化注解和多目标追踪</td>
 </tr>
@@ -435,9 +443,17 @@
   <td>微软语音 AI 模型家族，支持长达 90 分钟 TTS 和 60 分钟 ASR</td>
 </tr>
 <tr>
-  <td rowspan="12">学习资料</td>
+  <td rowspan="16">学习资料</td>
+  <td><a href="./ai/resource/humanlayer-12-factor-agents-learn">12-factor-agents</a></td>
+  <td>模仿 12 Factor App 的 LLM Agent 工程方法论指南，配 TypeScript + BAML 参考实现与教程生成器</td>
+</tr>
+<tr>
   <td><a href="./ai/resource/msitarzewski-agency-agents-learn">agency-agents</a></td>
   <td>AI Agent 人格集合，150+ 专业化 Agent 提示词模板，支持 11 种 AI 编码工具</td>
+</tr>
+<tr>
+  <td><a href="./ai/resource/rohitg00-ai-engineering-from-scratch-learn">ai-engineering-from-scratch</a></td>
+  <td>20 阶段 435 节课的 AI 工程开源课程，文件系统即数据库 + catalog/install/audit Python 工具链</td>
 </tr>
 <tr>
   <td><a href="./ai/resource/forrestchang-andrej-karpathy-skills-learn">andrej-karpathy-skills</a></td>
@@ -454,6 +470,10 @@
 <tr>
   <td><a href="./ai/resource/luongnv89-claude-howto-learn">claude-howto</a></td>
   <td>Claude Code 全功能教学指南，10 大模块 117+ 功能点，从入门到精通</td>
+</tr>
+<tr>
+  <td><a href="./ai/resource/datawhalechina-easy-vibe-learn">easy-vibe</a></td>
+  <td>Datawhale Vibe Coding 多语言教程站，VitePress + 700+ 交互式 Vue 组件可视化 AI 与前后端基础</td>
 </tr>
 <tr>
   <td><a href="./ai/resource/pbakaus-impeccable-learn">impeccable</a></td>
@@ -474,6 +494,10 @@
 <tr>
   <td><a href="./ai/resource/teng-lin-notebooklm-py-learn">notebooklm-py</a></td>
   <td>逆向工程 Google NotebookLM RPC 协议的非官方 Python API 客户端</td>
+</tr>
+<tr>
+  <td><a href="./ai/resource/K-Dense-AI-scientific-agent-skills-learn">scientific-agent-skills</a></td>
+  <td>K-Dense 维护的 138 个跨学科科研 Agent Skills 资产库，配套 LLM 安全扫描器与 GitHub Actions 治理流水线</td>
 </tr>
 <tr>
   <td><a href="./ai/resource/mattpocock-skills-learn">skills</a></td>
